@@ -1,0 +1,23 @@
+.timer {
+  display: flex;
+}
+.timer > .field {
+  min-width: 60px;
+  /* outline: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.timer > .field:not(:last-child) {
+  margin-right: 5px;
+}
+.timer > .field .value {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.87;
+}
+.timer > .field .label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+}
